@@ -1,0 +1,41 @@
+<script src="app.module.ts"></script>
+<div class="all">
+<header>
+  <img class="logo" src="https://cdn4.iconfinder.com/data/icons/education-759/2050/Education_flat-34-256.png"/>
+  <div ><a class="home" routerLink="/"> Главная </a></div>
+</header>
+  <div class="menu">
+      <ul>
+        <li><a routerLink="/practicheskie">Практические и лабораторные</a></li>
+        <li><a href="/tests">Тесты</a></li>
+        <li><a routerLink="/teoria">Tеория</a>
+          <ul class="dropdown">
+            <li>ОИиНД
+              <ul>
+                <li><a routerLink="/teoria/ОИиНД/1razdel">Раздел 1</a></li>
+                <li><a routerLink="/teoria/ОИиНД/2razdel">Раздел 2</a></li>
+              </ul>
+            </li>
+            <li>ФНC
+              <ul>
+                <li><a routerLink="/teoria/ФНС/1razdel">Раздел 1</a></li>
+                <li><a routerLink="/teoria/ФНС/2razdel">Раздел 2</a></li>
+                <li><a routerLink="/teoria/ФНС/3razdel">Раздел 3</a></li>
+                <li><a routerLink="/teoria/ФНС/4razdel">Раздел 4</a></li>
+                <li><a routerLink="/teoria/ФНС/5razdel">Раздел 5</a></li>
+                <li><a routerLink="/teoria/ФНС/6razdel">Раздел 6</a></li>
+                <li><a routerLink="/teoria/ФНС/7razdel">Раздел 7</a></li>
+              </ul></li>
+            <li>МиНУ
+              <ul>
+                <li><a routerLink="/teoria/МиНУ/1razdel">Раздел 1</a></li>
+                <li><a routerLink="/teoria/МиНУ/2razdel">Раздел 2</a></li>
+                <li><a routerLink="/teoria/МиНУ/3razdel">Раздел 3</a></li>
+              </ul></li>
+          </ul>
+        </li>
+      </ul>
+  </div>
+  <router-outlet></router-outlet>
+</div>
+

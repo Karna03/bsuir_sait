@@ -1,0 +1,8 @@
+.tema1{
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 25%;
+  text-align: justify;
+  width: 70%;
+}

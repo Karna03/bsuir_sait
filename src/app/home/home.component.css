@@ -1,0 +1,20 @@
+.content{
+  width: 58%;
+  float: right;
+  margin-right: 5%;
+}
+
+.ll{
+  font-size: 20px;
+  padding: 20px;
+  color: black;
+}
+
+.qwe{
+  background-color: #a5c6b1;
+  margin-top: 30px;
+}
+.dem{
+  width: 100%;
+  height: 50px;
+}
